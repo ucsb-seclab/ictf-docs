@@ -1,0 +1,5 @@
+---
+title: aimazing
+tags:
+  - HS
+---
