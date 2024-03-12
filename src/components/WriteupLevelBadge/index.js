@@ -1,11 +1,9 @@
 const levelStyle = {
     'HS': {
         borderColor: '#2e8555',
-        backgroundColor: '#ebffeb'
     },
     'UG': {
         borderColor: '#fcc100',
-        backgroundColor: '#fff9e0'
     },
 };
 
@@ -28,12 +26,4 @@ export default function WriteupLevelBadge({levels}) {
             ...levelStyle[level]
         }}>{level}</div>)}
     </div>;
-
-    // return (<div >
-    //     {[].ma(level => (<div style={{
-    //         borderRadius: '1000px', 
-    //         borderWidth: '2px', 
-    //         borderColor: levelColor(level)
-    //     }}>{level}<div/>))}
-    // </div>);
 }

@@ -1,5 +1,5 @@
 ---
-title: AI Mystical Candle
+title: AI Mystical Castle
 sidebar_custom_props:
   levels:
     - HS
