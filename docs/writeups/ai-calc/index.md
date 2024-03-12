@@ -1,7 +1,8 @@
 ---
 title: AI Calculator
-tags:
-  - HS
+sidebar_custom_props:
+  levels:
+    - HS
 ---
 
 To solve this challenge, we perform a prompt injection attack. 

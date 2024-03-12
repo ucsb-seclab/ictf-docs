@@ -41,8 +41,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ucsb-seclab/ictf-docs/tree/main/',
           routeBasePath: '/'
@@ -57,13 +55,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'iCTF Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/action.svg',
         },
         items: [
           {
@@ -86,8 +81,8 @@ const config = {
           {
             items: [
               {
-                label: 'iCTF',
-                href: 'https://ictf.cs.ucsb.edu/',
+                label: 'ACTION Institute',
+                href: 'https://action.ucsb.edu/',
               },
               {
                 label: 'UCSB Seclab',

@@ -1,7 +1,8 @@
 ---
 title: AI Cryptic Game
-tags:
-  - HS
+sidebar_custom_props:
+  levels:
+    - HS
 ---
 
 Prompt:

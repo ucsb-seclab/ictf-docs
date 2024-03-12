@@ -1,5 +1,6 @@
 ---
 title: aimazing
-tags:
-  - HS
+sidebar_custom_props:
+  levels:
+    - HS
 ---

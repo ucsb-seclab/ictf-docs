@@ -1,7 +1,9 @@
 ---
 title: AI Mystical Candle
-tags:
-  - HS
+sidebar_custom_props:
+  levels:
+    - HS
+    - UG
 ---
 
 We have the domain file and the problem file, parts of the PDDL description are transformed into poem. One can use ChatGPT to transform it back (I used vanilla context unaware one).
