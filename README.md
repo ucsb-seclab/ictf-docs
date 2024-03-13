@@ -1,6 +1,9 @@
 MISSING WRITEUPS:
 - BrokenWords (degrigis)
-- 
+- Evil Model (ammonia)
+- gptattacker
+- rock paper scissors (mdy)
+- token_of_appreciation (honululu)
 
 # Website
 

@@ -10,7 +10,7 @@ const cardData = [
   {
     title: 'Writeups',
     subLabel: 'Read challenge solutions',
-    permalink: '/ictf-docs/writeups/ai-calc'
+    permalink: '/ictf-docs/writeups/ai-calculator'
   }
 ];
 
