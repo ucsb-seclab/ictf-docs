@@ -1,12 +1,9 @@
 MISSING WRITEUPS:
-- BrokenWords (degrigis)
 - Evil Model (ammonia)
-- gptattacker
 - rock paper scissors (mdy)
 - token_of_appreciation (honululu)
-- backdoordetection
-- linear_labyrinth (0xk4l1)
 - rustyneurone (anton00b)
+- linear_labyrinth (0xk4l1)
 
 # Website
 
