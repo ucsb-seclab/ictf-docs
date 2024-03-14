@@ -23,6 +23,7 @@ export default function WriteupLevelBadge({levels}) {
             borderWidth: '1px',
             borderStyle: 'solid',
             borderRadius: '0.7em',
+            color: 'var(--ifm-menu-color)',
             ...levelStyle[level]
         }}>{level}</div>)}
     </div>;
