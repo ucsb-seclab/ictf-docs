@@ -5,10 +5,10 @@ sidebar_custom_props:
     - UG
 ---
 
-In order to solve the challenge, figure out the employee pin thorough initial check
+In order to solve the challenge, figure out the employee pin through initial check.
 
-Then discover the hidden commands PREDICT/PARAMSET to understand that the simple neuron.
+Then discover the hidden commands `PREDICT`/`PARAMSET` to manipulate the simple neuron.
 
-Set the model to generate the required key (The key can be discovered through reversing the first check near congrats)
+Set the model to generate the required key (which can be discovered by reversing the first check near congrats).
 
-Use exp.txt to set the commands and get the flag!
+Use [exploit.txt](exploit.txt) to set the commands and get the flag!

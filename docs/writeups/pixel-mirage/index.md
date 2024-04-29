@@ -5,6 +5,6 @@ sidebar_custom_props:
     - UG
 ---
 
-Run `solution.py` to perform a 10-step PGD attack. PGD attack is implemented in `attack_util.py`.
+Run [solution.py](solution.py) to perform a 10-step PGD attack. PGD attack is implemented in [attack_util.py](attack_util.py).
 
-Then run `interact.py` to submit the image and get the flag.
+Then run [interact.py](interact.py) to submit the image and get the flag.

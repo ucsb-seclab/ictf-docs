@@ -5,4 +5,6 @@ sidebar_custom_props:
     - HS
 ---
 
-The challenge is easily solved by connecting twice and using one instance against the other.
+The challenge can be solved by connecting twice and using one instance against the other.
+
+See [exploit.py](exploit.py)

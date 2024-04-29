@@ -5,3 +5,5 @@ sidebar_custom_props:
     - HS
     - UG
 ---
+
+See [exploit.py](exploit.py)

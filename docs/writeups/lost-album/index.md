@@ -13,3 +13,5 @@ A simple histogram analysis will reveal that 'C' is highly likely.
 
 Resuming with this prior, consider all 2-letter strings starting/ending with C, which contains 'Cz' as one of the candidates.
 Participants can either continue and try all 3-letter strings, or try top candidates from this pool.
+
+See [solution.py](solution.py)

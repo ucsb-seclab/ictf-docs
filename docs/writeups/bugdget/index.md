@@ -24,3 +24,5 @@ expected_savings = np.uint32(last_known_bank_account_balance) + np.uint32(slope)
 
 Note that your bank account balance must be positive before entering
 forecasting mode, or else the program quits.
+
+See [exploit.py](exploit.py)

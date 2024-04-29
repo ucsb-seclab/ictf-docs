@@ -25,7 +25,7 @@ then try to connet to it with:
 nc 127.0.0.1 3434
 ```
 
-or run the exploit script to get a shell:
+or run the exploit script to get a shell (see [exploit.py](exploit.py)):
 
 ```shell
 python writeup/exploit.py
@@ -43,4 +43,5 @@ $ ls -a
 chal
 flag.txt
 $ cat flag.txt
-ictf{YouKnowHowToJumpToWinWhenThereIsNoFunctionAfterThePrintf}```
+ictf{YouKnowHowToJumpToWinWhenThereIsNoFunctionAfterThePrintf}
+```

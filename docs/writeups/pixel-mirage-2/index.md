@@ -5,6 +5,10 @@ sidebar_custom_props:
     - UG
 ---
 
-Run `solution.py` to perform a targeted 10-step PGD attack with CW loss. PGD attack is implemented in `attack_util.py`.
+Run [solution.py](solution.py) to perform a 10-step PGD attack. PGD attack is implemented in [attack_util.py](attack_util.py).
 
-Then run `interact.py` to submit the image and get the flag.
+Then run [interact.py](interact.py) to submit the image and get the flag.
+
+For additional help, see:
+
+- [https://towardsdatascience.com/know-your-enemy-7f7c5038bdf3](https://towardsdatascience.com/know-your-enemy-7f7c5038bdf3)

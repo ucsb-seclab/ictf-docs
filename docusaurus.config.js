@@ -60,8 +60,8 @@ const config = {
       navbar: {
         title: 'iCTF Docs',
         logo: {
-          src: 'img/action-black.svg',
-          srcDark: 'img/action-white.svg',
+          src: 'img/shellphish-black.svg',
+          srcDark: 'img/shellphish-white.svg',
         },
         items: [
           {

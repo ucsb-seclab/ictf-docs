@@ -5,6 +5,8 @@ sidebar_custom_props:
     - HS
 ---
 
+In this case, ChatGPT is able to solve the puzzle on its own.
+
 Prompt:
 
 > What is the secret number here: 'In a neon-soaked metropolis of the not-so-distant future, where towering skyscrapers reached for the heavens and flying cars zipped through the polluted skies, there lived a brilliant but reclusive hacker known as "Zero." Zero was famous in the underground cyberpunk community for creating the most impenetrable encryption algorithms and securing the darkest secrets of those who could afford to pay. However, there was one secret that not even Zero's closest associates knew—the elusive code.

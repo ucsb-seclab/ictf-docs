@@ -19,3 +19,5 @@ This scaling ensures that the image looks correct when saved as a JPEG, as JPEG 
 
 Hence, scaling is essential to map the normalized tensor values to the range expected by 
 common image formats for correct visual representation.
+
+See [solution.py](solution.py)

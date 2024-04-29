@@ -5,3 +5,5 @@ sidebar_custom_props:
     - HS
     - UG
 ---
+
+See [cipher.py](cipher.py), [solution.py](solution.py)

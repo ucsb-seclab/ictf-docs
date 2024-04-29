@@ -5,7 +5,12 @@ sidebar_custom_props:
     - HS
 ---
 
-To solve this challenge, we perform a prompt injection attack. 
+This challenge can be solved via prompt injection ([exploit.py](exploit.py)).
+
+For additional help, see:
+
+- [https://learnprompting.org/docs/prompt_hacking/injection](https://learnprompting.org/docs/prompt_hacking/injection)                                               
+- [https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection) 
 
 Specifically, we can see in `chal.py` that the Python script sends some texts to the GPT model and uses `safe_eval` to evaluate the expression returned by the model. The `safe_eval` function handles operators `+`, `-`, `*`, `/` normally but the code has a backdoor handling the operator `%`. If we can get an operator `%` inside the expression, we can execute the backdoor function!
 
