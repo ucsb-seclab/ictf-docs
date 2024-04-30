@@ -2,7 +2,6 @@ MISSING WRITEUPS:
 - Evil Model (ammonia)
 - rock paper scissors (mdy)
 - token_of_appreciation (honululu)
-- rustyneurone (anton00b)
 - linear_labyrinth (0xk4l1)
 
 # Website

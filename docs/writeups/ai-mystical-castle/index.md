@@ -13,7 +13,7 @@ For additional help, see:
 - [https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language)
 - [https://planning.wiki/guide/whatis/pddl](https://planning.wiki/guide/whatis/pddl)
 
-We have the domain file ([castle_domain.pddl](castle_domain.pddl)) and the problem, although parts of the PDDL description are transformed into poem ([castle_problem_poem.pddl](castle_problem_poem.pddl)). One can use ChatGPT to transform it back ([castle_problem.pddl](castle_problem_gpt.pddl)).
+We have the domain file ([castle_domain.pddl](castle_domain.pddl)) and the problem, although parts of the PDDL description are transformed into poem ([castle_problem_poem.pddl](castle_problem_poem.pddl)). One can use ChatGPT to transform it back ([castle_problem.pddl](castle_problem.pddl)).
 
 You can then use a planner to solve the problem under the domain, and escape the castle:
 

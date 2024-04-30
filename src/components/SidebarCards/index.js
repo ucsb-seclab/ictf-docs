@@ -5,7 +5,7 @@ const cardData = [
   {
     title: 'Setup',
     subLabel: 'Run iCTF locally',
-    permalink: '/ictf-docs/setup/installation'
+    permalink: '/ictf-docs/setup'
   },
   {
     title: 'Writeups',
