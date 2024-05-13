@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 import isInternalUrl from '@docusaurus/isInternalUrl';
 import IconExternalLink from '@theme/Icon/ExternalLink';
 import styles from './styles.module.css';
-import WriteupLevelBadge from '@site/src/components/WriteupLevelBadge';
+import ChallengeLevelBadge from '@site/src/components/ChallengeLevelBadge';
 export default function DocSidebarItemLink({
   item,
   onItemClick,
@@ -44,7 +44,7 @@ export default function DocSidebarItemLink({
         {...props}>
         {label}
         {!isInternalLink && <IconExternalLink />}
-        <WriteupLevelBadge levels={item?.customProps?.levels}/>
+        <ChallengeLevelBadge levels={item?.customProps?.levels}/>
       </Link>
     </li>
   );

@@ -7,7 +7,7 @@ const levelStyle = {
     },
 };
 
-export default function WriteupLevelBadge({levels}) {
+export default function ChallengeLevelBadge({levels}) {
     return levels && <div style={{
         marginLeft: '0.6em', // 'auto',
         display: 'flex',

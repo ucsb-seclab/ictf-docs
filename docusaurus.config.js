@@ -72,9 +72,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'writeups',
+            sidebarId: 'challenges',
             position: 'left',
-            label: 'Writeups',
+            label: 'Challenges',
           },
         ],
       },

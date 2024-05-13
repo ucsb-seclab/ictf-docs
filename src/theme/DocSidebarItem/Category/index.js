@@ -17,7 +17,7 @@ import Link from '@docusaurus/Link';
 import {translate} from '@docusaurus/Translate';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import DocSidebarItems from '@theme/DocSidebarItems';
-import WriteupLevelBadge from '@site/src/components/WriteupLevelBadge';
+import ChallengeLevelBadge from '@site/src/components/ChallengeLevelBadge';
 // If we navigate to a category and it becomes active, it should automatically
 // expand itself
 function useAutoExpandActiveCategory({isActive, collapsed, updateCollapsed}) {
@@ -164,7 +164,7 @@ export default function DocSidebarItemCategory({
           href={collapsible ? hrefWithSSRFallback ?? '#' : hrefWithSSRFallback}
           {...props}>
           {label}
-          <WriteupLevelBadge levels={item?.customProps?.levels}/>
+          <ChallengeLevelBadge levels={item?.customProps?.levels}/>
         </Link>
         {href && collapsible && (
           <CollapseButton

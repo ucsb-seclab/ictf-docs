@@ -8,9 +8,9 @@ const cardData = [
     permalink: '/ictf-docs/setup'
   },
   {
-    title: 'Writeups',
-    subLabel: 'Read challenge solutions',
-    permalink: '/ictf-docs/writeups/ai-calculator'
+    title: 'Challenges',
+    subLabel: 'Read challenge descriptions, resources, and writeups',
+    permalink: '/ictf-docs/challenges/ai-calculator'
   }
 ];
 
