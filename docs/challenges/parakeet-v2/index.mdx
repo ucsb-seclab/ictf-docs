@@ -1,0 +1,22 @@
+---
+title: parakeet_v2
+sidebar_custom_props:
+  levels:
+    - HS
+---
+
+import Spoilers from '@site/src/components/Spoilers';
+
+In this challenge, you have to find the flag hidden in a Parquet file.
+Parquet is a format used in artificial intelligence to store tabular information efficiently.
+You can find information about the Parquet file format [here](https://parquet.apache.org/docs/).
+There are many online tools that can be used to see analyze the file... you just need to find the right one!
+
+v2: This time, it was hidden a bit better.
+
+<Spoilers type="writeup">
+
+The flag is in the creator field metadata, but this time it is not in plain text.
+It is chunked and stored as single-characters and cannot be `strings`-ed.
+
+</Spoilers>

@@ -1,0 +1,57 @@
+---
+title: printbof
+sidebar_custom_props:
+  levels:
+    - UG
+---
+
+import Spoilers from '@site/src/components/Spoilers';
+
+I always make secure programs.
+This one is something like chatGPT.
+The main difference is that it will only return your question to you, nothing much more than that...
+
+<Spoilers type="writeup">
+
+To run this locally, you may need to:
+
+```shell
+sudo apt update
+sudo apt install libc6
+```
+
+Otherwise you can run it with docker:
+
+```shell
+sudo docker build -t chal .
+sudo docker run -d -p 3434:3434 --rm -it chal
+```
+
+then try to connet to it with:
+
+```shell
+nc 127.0.0.1 3434
+```
+
+or run the exploit script to get a shell (see [exploit.py](exploit.py)):
+
+```shell
+python writeup/exploit.py
+```
+
+then:
+
+```shell
+$ ls -a
+.
+..
+.bash_logout
+.bashrc
+.profile
+chal
+flag.txt
+$ cat flag.txt
+ictf{YouKnowHowToJumpToWinWhenThereIsNoFunctionAfterThePrintf}
+```
+
+</Spoilers>

@@ -1,8 +1,4 @@
-MISSING WRITEUPS:
-- Evil Model (ammonia)
-- rock paper scissors (mdy)
-- token_of_appreciation (honululu)
-- linear_labyrinth (0xk4l1)
+Missing writeups: [https://docs.google.com/spreadsheets/d/1fVkpAffuzsPp4pnqC61YUOQoNctnJrGjLImLLLoL9S8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1fVkpAffuzsPp4pnqC61YUOQoNctnJrGjLImLLLoL9S8/edit?usp=sharing)
 
 # Website
 

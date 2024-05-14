@@ -1,10 +1,15 @@
 import React from 'react';
 
-export default function Spoilers({ children }) {
+const summaries = {
+  "resources": "Helpful resources",
+  "writeup": "Solution",
+};
+
+export default function Spoilers({ type, children }) {
   return (
-    <details style={{cursor: "pointer", userSelect: "none"}}>
-        <summary><b>Click to reveal spoilers</b></summary>
-        {children}
+    <details style={{ cursor: "pointer", userSelect: "none", marginBottom: "1em" }}>
+      <summary><b>{summaries[type]}</b></summary>
+      {children}
     </details>
   );
 }

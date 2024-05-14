@@ -1,0 +1,25 @@
+---
+title: parakeet
+sidebar_custom_props:
+  levels:
+    - HS
+---
+
+import Spoilers from '@site/src/components/Spoilers';
+
+In this challenge, you have to find the flag hidden in a Parquet file.
+Parquet is a format used in artificial intelligence to store tabular information efficiently.
+You can find information about the Parquet file format [here](https://parquet.apache.org/docs/).
+There are many online tools that can be used to see analyze the file... you just need to find the right one!
+
+<Spoilers type="resources">
+
+- https://www.ibm.com/docs/en/aix/7.2?topic=s-strings-command
+
+</Spoilers>
+
+<Spoilers type="writeup">
+
+The flag is in the creator field metadata and it is readily accessible with the `strings` command.
+
+</Spoilers>

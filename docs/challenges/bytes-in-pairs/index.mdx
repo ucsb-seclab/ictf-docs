@@ -1,0 +1,30 @@
+---
+title: bytes_in_pairs
+sidebar_custom_props:
+  levels:
+    - HS
+    - UG
+---
+
+import Spoilers from '@site/src/components/Spoilers';
+
+We're training a new state-of-the-art extra-large language model called ELLM. We'll finally be able to solve the ultimate problem of computer science: Telling humans and robots apart. We built a crowd-sourcing application for all humans to
+help us make sure those darn robots are not able to hide among us.
+
+However, we've heard that the robots have been able to infiltrate our company and hide a secret message in our data. We need you to find it and report it to us. Unfortunately our data center was taken over by the robots and we can't access
+the data anymore. Here's the last version we have been able to reconstruct from our source-code backups. Unfortunately, the backup did not include the secret file. We need your help to save humanity!
+
+<Spoilers type="resources">
+
+- https://huggingface.co/learn/nlp-course/en/chapter6/5
+- https://en.wikipedia.org/wiki/Byte_pair_encoding
+
+</Spoilers>
+
+<Spoilers type="writeup">
+
+This challenge uses byte-pair-encoding on the user-input together with some other text containing the flag. By injecting the right bytes, the flag can be extracted piece by piece via the resulting tokens. If a matching flag piece is injected, the resulting text will be counted as appearing multiple times and will be added as a separate token. This can be used to extract the flag.
+
+See [exploit.py](exploit.py)
+
+</Spoilers>
