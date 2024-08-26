@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.1">
 <title data-rh="true">Tensormania | iCTF Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://ucsb-seclab.github.io/ictf-docs/challenges/tensormania/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Tensormania | iCTF Docs"><meta data-rh="true" name="description" content="A friend just handed me this peculiar Tensor object, claiming its an JPG image."><meta data-rh="true" property="og:description" content="A friend just handed me this peculiar Tensor object, claiming its an JPG image."><link data-rh="true" rel="icon" href="/ictf-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ucsb-seclab.github.io/ictf-docs/challenges/tensormania/"><link data-rh="true" rel="alternate" href="https://ucsb-seclab.github.io/ictf-docs/challenges/tensormania/" hreflang="en"><link data-rh="true" rel="alternate" href="https://ucsb-seclab.github.io/ictf-docs/challenges/tensormania/" hreflang="x-default"><link rel="stylesheet" href="/ictf-docs/assets/css/styles.e10287b6.css">
-<script src="/ictf-docs/assets/js/runtime~main.41365ce9.js" defer="defer"></script>
+<script src="/ictf-docs/assets/js/runtime~main.af191799.js" defer="defer"></script>
 <script src="/ictf-docs/assets/js/main.c12e64ef.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -13,6 +13,7 @@ Can we trust our buddy?
 Grab your PyTorch magnifying glass and let&#x27;s investigate!
 Tensors are everywhere in the realm of machine learning, and who knows,
 they might even unveil hidden messages in plain sight</p>
+<details style="cursor:pointer;user-select:none;margin-bottom:1em"><summary><b>Helpful resources</b></summary><p>We can think about images as tensors with dimensions (height, width, channels). What is the range of data? What is the range of a normal JPG image?</p></details>
 <details style="cursor:pointer;user-select:none;margin-bottom:1em"><summary><b>Solution</b></summary><p>In the context of image representation, most image formats like JPEG use an 8-bit color depth for each channel (red, green, blue),
 which allows for 256 different intensity levels (ranging from 0 to 255).
 These values represent the intensity of light for each color channel.</p><p>The original tensor values are in the range [0, 1], as they likely represent normalized pixel intensities,
